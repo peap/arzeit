@@ -2,7 +2,7 @@
 <html lang="en" data-ng-app="ArZeit">
 
     <head>
-        <link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css">
+        <link rel="stylesheet"href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css">
         <link rel="stylesheet" href="views/ArZeit.css">
 
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
@@ -16,6 +16,7 @@
     <body>
         <div class="container">
             <h1>ArZeit</h1>
+            <div ng-controller="ClockCtrl">{{ time.now }}</div>
             <div id="angular-views" data-ng-view></div>
         </div>
     </body>

@@ -11,5 +11,22 @@ var arzeitConfig = function($routeProvider){
     ;
 };
 
-var ArZeit = angular.module('ArZeit', []).config(arzeitConfig);
+var arzeitFactory = function($timeout){
+    var time = {};
+
+    (function tick(){
+        time.now = new Date().toLocaleTimeString();
+        $timeout(tick, 1000);
+    })();
+
+    return time;
+}
+
+function ClockCtrl($scope, time){
+    $scope.time = time;
+}
+
+var ArZeit = angular.module('ArZeit', [])
+                    .config(arzeitConfig)
+                    .factory('time', arzeitFactory);
 
