@@ -1,4 +1,4 @@
-ArZeit.controller('TimerControl',
+ArZeit.controller('TimerList',
     function($scope, $location, $routeParams, TimerModel){
         var timers = TimerModel.getTimers();
         $scope.timers = timers;
@@ -8,5 +8,13 @@ ArZeit.controller('TimerControl',
         $scope.timerStop = function(timer){
             timer.active = false;
         };
+    }
+);
+
+ArZeit.controller('TimerDetail',
+    function($scope, $location, $routeParams, TimerModel){
+        var timerID = $routeParams.timerID;
+        var timer = TimerModel.getTimer(timerID);
+        $scope.timer = timer;
     }
 );

@@ -1,12 +1,12 @@
 var arzeitConfig = function($routeProvider){
     $routeProvider
         .when('/', {
-            controller: 'TimerControl',
+            controller: 'TimerList',
             templateUrl: 'views/timers.html',
         })
-        .when('/timer/:timerId/', {
-            controller: 'TimerControl',
-            templateUrl: 'views/timers.html',
+        .when('/timer/:timerID/', {
+            controller: 'TimerDetail',
+            templateUrl: 'views/timer_details.html',
         })
     ;
 };
