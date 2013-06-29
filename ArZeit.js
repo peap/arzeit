@@ -10,6 +10,9 @@ var arzeitConfig = function($routeProvider){
             controller: 'TimerDetail',
             templateUrl: 'views/timer_details.html',
         })
+        .otherwise({
+            redirectTo: '/'
+        })
     ;
 };
 
