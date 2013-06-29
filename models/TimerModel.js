@@ -1,3 +1,5 @@
+'use strict';
+
 ArZeit.service('TimerModel',
     function(){
         _timers = [

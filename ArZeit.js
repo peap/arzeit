@@ -1,3 +1,5 @@
+'use strict';
+
 var arzeitConfig = function($routeProvider){
     $routeProvider
         .when('/', {
@@ -26,7 +28,9 @@ function ClockCtrl($scope, time){
     $scope.time = time;
 }
 
-var ArZeit = angular.module('ArZeit', [])
-                    .config(arzeitConfig)
-                    .factory('time', arzeitFactory);
+var ArZeit = angular
+    .module('ArZeit', [])
+    .config(arzeitConfig)
+    .factory('time', arzeitFactory)
+;
 

@@ -1,3 +1,5 @@
+'use strict';
+
 ArZeit.controller('TimerList',
     function($scope, $location, $routeParams, TimerModel){
         var timers = TimerModel.getTimers();
