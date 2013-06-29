@@ -7,7 +7,7 @@
         </tr>
     </thead>
     <tbody>
-        <tr data-ng-repeat="timer in timers | orderBy:'title'">
+        <tr ng-repeat="timer in timers | orderBy:'title'">
             <td>
                 <a href="#/timer/{{ timer.id }}/">{{ timer.title }}</a>
             </td>
@@ -16,13 +16,13 @@
             </td>
             <td>
                 <button class="btn btn-primary"
-                        data-ng-show="!timer.active"
-                        data-ng-click="timerStart(timer)">
+                        ng-show="!timer.active"
+                        ng-click="timerStart(timer)">
                     Start
                 </button>
                 <button class="btn btn-warning"
-                        data-ng-show="timer.active"
-                        data-ng-click="timerStop(timer)">
+                        ng-show="timer.active"
+                        ng-click="timerStop(timer)">
                     Stop
                 </button>
             </td>
