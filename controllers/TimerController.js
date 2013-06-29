@@ -10,6 +10,10 @@ ArZeit.controller('TimerList',
         $scope.timerStop = function(timer){
             timer.active = false;
         };
+        $scope.addTimer = function(title){
+            timers.push({title: title});
+            $scope.newTimer = '';
+        };
     }
 );
 

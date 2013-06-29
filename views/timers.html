@@ -1,3 +1,5 @@
+<input type="text" ng-model="searchText.title" placeholder="search">
+
 <table class="table table-striped">
     <thead>
         <tr>
@@ -7,7 +9,7 @@
         </tr>
     </thead>
     <tbody>
-        <tr ng-repeat="timer in timers | orderBy:'title'">
+        <tr ng-repeat="timer in timers | orderBy:'title' | filter:searchText">
             <td>
                 <a href="#/timer/{{ timer.id }}/">{{ timer.title }}</a>
             </td>
@@ -29,3 +31,8 @@
         </tr>
     </tbody>
 </table>
+
+<form name="add" novalidate class="form-horizontal">
+    <input type="text" ng-model="newTimer" required placeholder="new timer">
+    <button type="submit" ng-disabled="add.$invalid" ng-click="addTimer(newTimer)">Add</button>
+</form>
