@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="294" measuredH="510" mockupW="282" mockupH="510">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="318" measuredH="510" mockupW="306" mockupH="510">
   <controls>
     <control controlID="15" controlTypeID="com.balsamiq.mockups::Accordion" x="45" y="143" w="216" h="169" measuredW="150" measuredH="105" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
@@ -81,6 +81,11 @@
     <control controlID="30" controlTypeID="com.balsamiq.mockups::Switch" x="187" y="269" w="-1" h="-1" measuredW="68" measuredH="28" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
         <onOffState>off</onOffState>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Tooltip" x="241" y="411" w="-1" h="-1" measuredW="77" measuredH="33" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>tabs%3F</text>
       </controlProperties>
     </control>
   </controls>
