@@ -2,10 +2,10 @@
 <html lang="en" ng-app="ArZeit">
 
 <head>
-    <link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="res/css/bootstrap.css">
     <link rel="stylesheet" href="views/ArZeit.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script src="res/js/angular-1.0.7.min.js"></script>
     <script src="ArZeit.js"></script>
     <script src="controllers/TimerController.js"></script>
     <script src="models/TimerModel.js"></script>
@@ -16,12 +16,12 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="span12">
+            <div class="span">
                 <h1>ArZeit</h1>
             </div>
         </div>
         <div class="row">
-            <div class="span12">
+            <div class="span">
                 <div ng-controller="ClockCtrl">{{ time.now }}</div>
             </div>
         </div>
