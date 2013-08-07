@@ -9,9 +9,9 @@
         </tr>
     </thead>
     <tbody>
-        <tr ng-repeat="timer in timers | orderBy:'title' | filter:searchText">
+        <tr ng-repeat="timer in timers | orderBy:'name' | filter:searchText">
             <td>
-                <a href="#/timer/{{ timer.id }}/">{{ timer.title }}</a>
+                <a href="#/timer/{{ timer.id }}/">{{ timer.name }}</a>
             </td>
             <td>
                 ...
