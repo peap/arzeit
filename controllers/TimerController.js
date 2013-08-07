@@ -2,7 +2,7 @@
 
 ArZeit.controller('TimerList',
     function($scope, $location, $routeParams, TimerModel){
-        var timers = TimerModel.getTimers();
+        var timers = TimerModel.getTimerList();
         $scope.timers = timers;
         $scope.timerStart = function(timer){
             timer.active = true;

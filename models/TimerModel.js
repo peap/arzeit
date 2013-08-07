@@ -2,23 +2,35 @@
 
 ArZeit.service('TimerModel',
     function($http){
-        var _timers = [];
+        var _timer = [];
+        var _timer_list = [];
 
-        function loadTimers(data, status, headers, config){
+        var _api_url_base = 'http://127.0.0.1/api/'
+        var _timer_url = 'timers/:id/';
+        var _timer_list_url = 'timers/';
+
+        function loadTimer(data, status, headers, config){
+            _timer.push(data);
+        }
+
+        function loadTimerList(data, status, headers, config){
             for (var i = 0; i < data.length; i++){
-                _timers.push(data[i]);
+                _timer_list.push(data[i]);
             }
         }
 
-        this.getTimers = function(){
-            $http.get('http://127.0.0.1/api/timers/').success(loadTimers);
-            // cross origin policy violated even for different ports...
-            return _timers;
+        this.getTimer = function(id){
+            var url = (_api_url_base + _timer_url).replace(':id', id);
+            $http.get(url).success(loadTimer);
+            return _timer[0];
         };
 
-        this.getTimer = function(id){
-            return _timers[id];
+        this.getTimerList = function(){
+            var url = (_api_url_base + _timer_list_url)
+            $http.get(url).success(loadTimerList);
+            return _timer_list;
         };
+
 
     }
 );
