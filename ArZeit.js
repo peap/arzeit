@@ -10,6 +10,10 @@ var arzeitConfig = function($routeProvider){
             controller: 'TimerDetail',
             templateUrl: 'views/timer_details.html',
         })
+        .when('/category/:categoryID/', {
+            controller: 'CategoryDetail',
+            templateUrl: 'views/category_details.html',
+        })
         .otherwise({
             redirectTo: '/'
         })
