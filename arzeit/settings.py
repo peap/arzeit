@@ -83,7 +83,7 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = '%#iv4=6)k#_+0p3sf&kpt2y7$^_o^wy0#tlh)dru7%i6@n5k=y'
+SECRET_KEY = None
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -124,6 +124,8 @@ INSTALLED_APPS = (
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
+
+    'rest_framework',
 )
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
@@ -156,3 +158,8 @@ LOGGING = {
         },
     }
 }
+
+try:
+    from local_settings import *
+except ImportError:
+    pass
