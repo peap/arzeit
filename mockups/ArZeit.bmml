@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="318" measuredH="510" mockupW="306" mockupH="510">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="946" measuredH="543" mockupW="934" mockupH="543">
   <controls>
     <control controlID="15" controlTypeID="com.balsamiq.mockups::Accordion" x="45" y="143" w="216" h="169" measuredW="150" measuredH="105" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
@@ -31,7 +31,7 @@
         <orientation>portrait</orientation>
       </controlProperties>
     </control>
-    <control controlID="20" controlTypeID="com.balsamiq.mockups::Title" x="39" y="100" w="-1" h="-1" measuredW="97" measuredH="41" zOrder="1" locked="false" isInGroup="-1">
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Title" x="39" y="100" w="-1" h="-1" measuredW="94" measuredH="35" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
         <size>32</size>
         <text>ArZeit</text>
@@ -43,12 +43,12 @@
         <text/>
       </controlProperties>
     </control>
-    <control controlID="22" controlTypeID="com.balsamiq.mockups::Label" x="158" y="110" w="-1" h="-1" measuredW="80" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Label" x="158" y="110" w="-1" h="-1" measuredW="76" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Conferences</text>
       </controlProperties>
     </control>
-    <control controlID="23" controlTypeID="com.balsamiq.mockups::IconLabel" x="204" y="396" w="35" h="-1" measuredW="36" measuredH="33" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::IconLabel" x="204" y="396" w="35" h="-1" measuredW="32" measuredH="28" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>square</borderStyle>
         <icon>RightTriangleIcon%7Cxsmall</icon>
@@ -56,7 +56,7 @@
         <text>Timers</text>
       </controlProperties>
     </control>
-    <control controlID="24" controlTypeID="com.balsamiq.mockups::IconLabel" x="132" y="396" w="42" h="-1" measuredW="41" measuredH="33" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::IconLabel" x="132" y="396" w="42" h="-1" measuredW="37" measuredH="28" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>square</borderStyle>
         <icon>ChartPieIcon%7Cxsmall</icon>
@@ -64,7 +64,7 @@
         <text>Reports</text>
       </controlProperties>
     </control>
-    <control controlID="25" controlTypeID="com.balsamiq.mockups::IconLabel" x="66" y="396" w="42" h="-1" measuredW="28" measuredH="33" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::IconLabel" x="66" y="396" w="42" h="-1" measuredW="23" measuredH="28" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>square</borderStyle>
         <icon>TagIcon%7Cxsmall</icon>
@@ -83,9 +83,65 @@
         <onOffState>off</onOffState>
       </controlProperties>
     </control>
-    <control controlID="31" controlTypeID="com.balsamiq.mockups::Tooltip" x="241" y="411" w="-1" h="-1" measuredW="77" measuredH="33" zOrder="14" locked="false" isInGroup="-1">
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Tooltip" x="241" y="411" w="-1" h="-1" measuredW="84" measuredH="33" zOrder="14" locked="false" isInGroup="-1">
       <controlProperties>
         <text>tabs%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::TextArea" x="728" y="511" w="218" h="32" measuredW="200" measuredH="140" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <text>arzeit_server%20%28http%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::TextArea" x="726" y="401" w="218" h="32" measuredW="200" measuredH="140" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <text>nginx%20%28https%20-%3E%20http%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Arrow" x="825" y="433" w="10" h="78" measuredW="150" measuredH="100" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::TextArea" x="419" y="289" w="185" h="32" measuredW="200" measuredH="140" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <text>Client%20%28Android%2C%20browser%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::TextArea" x="420" y="506" w="207" h="32" measuredW="200" measuredH="140" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <text>arzeit%20%28angularjs%29%20%28http%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::TextArea" x="414" y="394" w="218" h="32" measuredW="200" measuredH="140" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <text>nginx%20%28https%20-%3E%20http%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Arrow" x="511" y="430" w="10" h="78" measuredW="150" measuredH="100" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Arrow" x="511" y="322" w="10" h="78" measuredW="150" measuredH="100" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>client%20code</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Arrow" x="517" y="324" w="310" h="78" measuredW="150" measuredH="100" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>OAuth%20token</text>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::Arrow" x="602" y="305" w="228" h="96" measuredW="150" measuredH="100" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>top</direction>
+        <text>REST%20calls</text>
       </controlProperties>
     </control>
   </controls>
