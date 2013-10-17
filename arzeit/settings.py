@@ -107,6 +107,7 @@ INSTALLED_APPS = (
 
     'account',
     'categories',
+    'timers',
 )
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
